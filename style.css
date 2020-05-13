@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+}
+
+.banner-image {
+  background-image: url(wall.jpeg);
+  display: flex;
+  height: 250px;
+  border-radius: 9px;
+  background-size: cover;
+  position: center;
+}
+
+.banner-text {
+  text-align: center;
+  margin-top: 10px;
+  margin: 50px auto;
+  color: blue;
+}
+
+.container {
+  display: block;
+  background-color: red;
+  max-width: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container:hover {
+  display: block;
+  background-color: green;
+  max-width: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  text-align: center;
+}
+
+button:hover{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  font-weight: 900;
+}
